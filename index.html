@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TW - DESIGN SYSTEM</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body class="font-inter text-midnight text-lg bg-body-bg relative">
+  <!-- navbar section -->
+  <nav class="py-6 sticky top-0">
+    <div class="container mx-auto">
+      <div class="grid grid-cols-1 tablet:grid-cols-3">
+        <div class="py-2 tablet:py-0" id="logo-div">
+          <a class="cursor-pointer text-xl text-brand font-satoshi leading-tight">WireFrame<br>Design
+            Conf.</a>
+        </div>
+        <div class="flex space-x-4 justify-start tablet:justify-center items-center">
+          <a href="#speakers" class="text-brand font-semibold py-4 px-2 text-sm">Speakers</a>
+          <a href="#schedule" class="text-brand font-semibold py-4 px-2 text-sm">Schedules</a>
+          <a href="#partners" class="text-brand font-semibold py-4 px-2 text-sm">Partners</a>
+        </div>
+        <div class="hidden tablet:flex justify-end items-center">
+          <button type="button" class="text-white bg-brand font-medium rounded-lg text-xs px-10 py-2.5">Get
+            Tickets</button>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- hero section -->
+  <section class="tablet:py-6">
+    <div class="container mx-auto">
+      <div class="desktop:grid desktop:grid-cols-4 desktop:gap-8 desktop:items-start">
+        <div class="flex-col space-y-6 hidden desktop:flex">
+          <div>
+            <h2 class="text-sm mb-1">Date:</h2>
+            <p class="text-lg font-semibold">Sept 5 unitil</p>
+            <p class="text-lg font-semibold">Sept 7, 2023.</p>
+          </div>
+          <div>
+            <h2 class="text-sm mb-1">Venue:</h2>
+            <p class="text-lg font-semibold">The Scottish Hydro,</p>
+            <p class="text-lg font-semibold">Center for Entertainment</p>
+          </div>
+          <div>
+            <h2 class="text-sm mb-1">Online:</h2>
+            <p class="text-lg font-semibold">Worldwide at 8PM EST.</p>
+          </div>
+        </div>
+        <div class="col-span-3 space-y-5">
+          <div class="tablet:py-4 desktop:py-0">
+            <h1 class="text-3xl tablet:text-5xl text-brand font-satoshi leading-none m-0">A Community-driven design
+              conference</h1>
+          </div>
+          <div class="py-3 tablet:hidden ">
+            <button type="button" class="w-full text-white bg-brand font-medium rounded-lg text-xs px-10 py-2.5">Get
+              Tickets</button>
+          </div>
+          <div
+            class="py-4 space-y-6 tablet:space-y-0 grid grid-cols-1 tablet:grid-cols-3 desktop:hidden border-t-2 border-metal/10">
+            <div>
+              <h2 class="text-sm mb-1">Date:</h2>
+              <p class="text-lg font-semibold">Sept 5 unitil</p>
+              <p class="text-lg font-semibold">Sept 7, 2023.</p>
+            </div>
+            <div>
+              <h2 class="text-sm mb-1">Venue:</h2>
+              <p class="text-lg font-semibold">The Scottish Hydro,</p>
+              <p class="text-lg font-semibold">Center for Entertainment</p>
+            </div>
+            <div>
+              <h2 class="text-sm mb-1">Online:</h2>
+              <p class="text-lg font-semibold">Worldwide at 8PM EST.</p>
+            </div>
+          </div>
+          <p class="text-xl text-metal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nihil. Dolor,
+            fugit cumque. Reiciendis
+            molestias eveniet dolorem voluptate eos esse possimus ut aliquam impedit ducimus vitae dolores delectus
+            tempore ipsum nam incidunt, nulla iste excepturi ex? Cupiditate sapiente in placeat.</p>
+          <p class="text-xl text-metal">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias unde numquam
+            vitae velit accusamus illo
+            natus exercitationem iusto iste? Corrupti accusantium in cupiditate porro excepturi. At qui ipsa molestias
+            totam?</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- speakers section -->
+  <section class="py-6 scroll-mt-[184px] tablet:scroll-mt-[108px]" id="speakers">
+    <div class="container mx-auto">
+      <div class="desktop:max-w-4xl">
+        <h2 class="font-black text-brand text-2xl tablet:text-4xl font-satoshi">Speakers</h2>
+        <p class="mt-6 text-xl text-metal">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi reiciendis, eos mollitia soluta sint rerum
+          quas?
+          Porro, reprehenderit vero, facere doloremque voluptates cum at quis numquam excepturi consectetur voluptatum
+          magni ut sunt omnis quam. Commodi accusantium ex veniam in ea?
+        </p>
+      </div>
+      <div class="mt-10 tablet:mt-16 desktop:grid desktop:grid-cols-4 desktop:gap-8 desktop:items-start">
+        <div class="grid gap-8 tablet:grid-cols-3 desktop:grid-cols-1" id="myTab" data-tabs-toggle="#myTabContent"
+          role="tablist">
+          <button class="pb-5 flex flex-col border-b-2 border-brand" id="profile-tab" data-tabs-target="#one"
+            type="button" role="tab" aria-controls="one" aria-selected="false">
+            <span class="text-xs text-brand font-semibold">Day 1</span>
+            <span class="mt-1 text-xl text-midnight font-semibold">Sept 5</span>
+          </button>
+          <button class="pb-5 flex flex-col border-b-2 border-metal/10" id="profile-tab" data-tabs-target="#two"
+            type="button" role="tab" aria-controls="two" aria-selected="false">
+            <span class="text-xs text-brand font-semibold">Day 2</span>
+            <span class="mt-1 text-xl text-midnight font-semibold">Sept 6</span>
+          </button>
+          <button class="pb-5 flex flex-col border-b-2 border-metal/10" id="profile-tab" data-tabs-target="#three"
+            type="button" role="tab" aria-controls="three" aria-selected="false">
+            <span class="text-xs text-brand font-semibold">Day 3</span>
+            <span class="mt-1 text-xl text-midnight font-semibold">Sept 7</span>
+          </button>
+        </div>
+
+        <div id="myTabContent" class="col-span-3">
+          <div class="hidden" id="one" role="tabpanel">
+            <ul class="mt-10 place-items-center grid gap-10 tablet:gap-x-8 gap-y-16 tablet:grid-cols-3 desktop:mt-0">
+              <li>
+                <div><img src="/images/speaker1.jpeg" alt=""></div>
+                <h3 class="mt-6 text-xs text-tahiti-blue font-semibold">CEO, Figma</h3>
+                <p class="mt-1 text-lg text-midnight">Dylan Field</p>
+              </li>
+              <li>
+                <div><img src="/images/speaker2.jpeg" alt=""></div>
+                <h3 class="mt-6 text-xs text-tahiti-blue font-semibold">CCO, Figma</h3>
+                <p class="mt-1 text-lg text-midnight">Amanda Kleha</p>
+              </li>
+              <li>
+                <div><img src="/images/speaker3.jpeg" alt=""></div>
+                <h3 class="mt-6 text-xs text-tahiti-blue font-semibold">CEO, Vercel & Next.js Creator</h3>
+                <p class="mt-1 text-lg text-midnight">G Rauch</p>
+              </li>
+              <li>
+                <div><img src="/images/speaker4.jpeg" alt=""></div>
+                <h3 class="mt-6 text-xs text-tahiti-blue font-semibold">Venture Partner, IVP</h3>
+                <p class="mt-1 text-lg text-midnight">Tamar Yehoshua</p>
+              </li>
+              <li>
+                <div><img src="/images/speaker5.jpeg" alt=""></div>
+                <h3 class="mt-6 text-xs text-tahiti-blue font-semibold">CEO, Replit</h3>
+                <p class="mt-1 text-lg text-midnight">Amjad Masad</p>
+              </li>
+              <li>
+                <div><img src="/images/speaker6.jpeg" alt=""></div>
+                <h3 class="mt-6 text-xs text-tahiti-blue font-semibold">CEO, Diagram</h3>
+                <p class="mt-1 text-lg text-midnight">Jordan Singer</p>
+              </li>
+              <li>
+                <div><img src="/images/speaker7.jpeg" alt=""></div>
+                <h3 class="mt-6 text-xs text-tahiti-blue font-semibold">Head of Design, Github</h3>
+                <p class="mt-1 text-lg text-midnight">Diana Mounter</p>
+              </li>
+              <li>
+                <div><img src="/images/speaker8.jpeg" alt=""></div>
+                <h3 class="mt-6 text-xs text-tahiti-blue font-semibold">VP, Design, Netflix</h3>
+                <p class="mt-1 text-lg text-midnight">Steve Johnson</p>
+              </li>
+              <li>
+                <div><img src="/images/speaker9.jpeg" alt=""></div>
+                <h3 class="mt-6 text-xs text-tahiti-blue font-semibold">CEO, UENO</h3>
+                <p class="mt-1 text-lg text-midnight">Haraldur Thorleifsson</p>
+              </li>
+            </ul>
+          </div>
+          <div class="hidden" id="two" role="tabpanel">
+            <ul class="mt-10 grid gap-10 tablet:gap-x-8 gap-y-16 tablet:grid-cols-3 desktop:mt-0">
+              <li>
+                <div><img src="/images/speaker5.jpeg" alt=""></div>
+                <h3 class="mt-6 text-xs text-tahiti-blue font-semibold">CEO, Replit</h3>
+                <p class="mt-1 text-lg text-midnight">Amjad Masad</p>
+              </li>
+              <li>
+                <div><img src="/images/speaker6.jpeg" alt=""></div>
+                <h3 class="mt-6 text-xs text-tahiti-blue font-semibold">CEO, Diagram</h3>
+                <p class="mt-1 text-lg text-midnight">Jordan Singer</p>
+              </li>
+              <li>
+                <div><img src="/images/speaker7.jpeg" alt=""></div>
+                <h3 class="mt-6 text-xs text-tahiti-blue font-semibold">Head of Design, Github</h3>
+                <p class="mt-1 text-lg text-midnight">Diana Mounter</p>
+              </li>
+              <li>
+                <div><img src="/images/speaker1.jpeg" alt=""></div>
+                <h3 class="mt-6 text-xs text-tahiti-blue font-semibold">CEO, Figma</h3>
+                <p class="mt-1 text-lg text-midnight">Dylan Field</p>
+              </li>
+              <li>
+                <div><img src="/images/speaker2.jpeg" alt=""></div>
+                <h3 class="mt-6 text-xs text-tahiti-blue font-semibold">CCO, Figma</h3>
+                <p class="mt-1 text-lg text-midnight">Amanda Kleha</p>
+              </li>
+              <li>
+                <div><img src="/images/speaker3.jpeg" alt=""></div>
+                <h3 class="mt-6 text-xs text-tahiti-blue font-semibold">CEO, Vercel & Next.js Creator</h3>
+                <p class="mt-1 text-lg text-midnight">G Rauch</p>
+              </li>
+              <li>
+                <div><img src="/images/speaker4.jpeg" alt=""></div>
+                <h3 class="mt-6 text-xs text-tahiti-blue font-semibold">Venture Partner, IVP</h3>
+                <p class="mt-1 text-lg text-midnight">Tamar Yehoshua</p>
+              </li>
+              <li>
+                <div><img src="/images/speaker8.jpeg" alt=""></div>
+                <h3 class="mt-6 text-xs text-tahiti-blue font-semibold">VP, Design, Netflix</h3>
+                <p class="mt-1 text-lg text-midnight">Steve Johnson</p>
+              </li>
+              <li>
+                <div><img src="/images/speaker9.jpeg" alt=""></div>
+                <h3 class="mt-6 text-xs text-tahiti-blue font-semibold">CEO, UENO</h3>
+                <p class="mt-1 text-lg text-midnight">Haraldur Thorleifsson</p>
+              </li>
+            </ul>
+          </div>
+          <div class="hidden" id="three" role="tabpanel">
+            <ul class="mt-10 grid gap-10 tablet:gap-x-8 gap-y-16 tablet:grid-cols-3 desktop:mt-0">
+              <li>
+                <div><img src="/images/speaker7.jpeg" alt=""></div>
+                <h3 class="mt-6 text-xs text-tahiti-blue font-semibold">Head of Design, Github</h3>
+                <p class="mt-1 text-lg text-midnight">Diana Mounter</p>
+              </li>
+              <li>
+                <div><img src="/images/speaker8.jpeg" alt=""></div>
+                <h3 class="mt-6 text-xs text-tahiti-blue font-semibold">VP, Design, Netflix</h3>
+                <p class="mt-1 text-lg text-midnight">Steve Johnson</p>
+              </li>
+              <li>
+                <div><img src="/images/speaker9.jpeg" alt=""></div>
+                <h3 class="mt-6 text-xs text-tahiti-blue font-semibold">CEO, UENO</h3>
+                <p class="mt-1 text-lg text-midnight">Haraldur Thorleifsson</p>
+              </li>
+              <li>
+                <div><img src="/images/speaker1.jpeg" alt=""></div>
+                <h3 class="mt-6 text-xs text-tahiti-blue font-semibold">CEO, Figma</h3>
+                <p class="mt-1 text-lg text-midnight">Dylan Field</p>
+              </li>
+              <li>
+                <div><img src="/images/speaker2.jpeg" alt=""></div>
+                <h3 class="mt-6 text-xs text-tahiti-blue font-semibold">CCO, Figma</h3>
+                <p class="mt-1 text-lg text-midnight">Amanda Kleha</p>
+              </li>
+              <li>
+                <div><img src="/images/speaker3.jpeg" alt=""></div>
+                <h3 class="mt-6 text-xs text-tahiti-blue font-semibold">CEO, Vercel & Next.js Creator</h3>
+                <p class="mt-1 text-lg text-midnight">G Rauch</p>
+              </li>
+              <li>
+                <div><img src="/images/speaker4.jpeg" alt=""></div>
+                <h3 class="mt-6 text-xs text-tahiti-blue font-semibold">Venture Partner, IVP</h3>
+                <p class="mt-1 text-lg text-midnight">Tamar Yehoshua</p>
+              </li>
+              <li>
+                <div><img src="/images/speaker5.jpeg" alt=""></div>
+                <h3 class="mt-6 text-xs text-tahiti-blue font-semibold">CEO, Replit</h3>
+                <p class="mt-1 text-lg text-midnight">Amjad Masad</p>
+              </li>
+              <li>
+                <div><img src="/images/speaker6.jpeg" alt=""></div>
+                <h3 class="mt-6 text-xs text-tahiti-blue font-semibold">CEO, Diagram</h3>
+                <p class="mt-1 text-lg text-midnight">Jordan Singer</p>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </div>
+  </section>
+  <!-- schedule section -->
+  <section class="py-6 scroll-mt-[184px] tablet:scroll-mt-[108px]" id="schedule">
+    <div class="container mx-auto">
+      <div class="desktop:max-w-4xl">
+        <h2 class="font-black text-brand text-2xl tablet:text-4xl font-satoshi">Our three-day schedule is jam-packed
+          with fun, inventive, creative geniuses.</h2>
+        <p class="mt-6 text-xl text-metal">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi reiciendis, eos mollitia soluta sint rerum
+          quas?
+          Porro, reprehenderit vero, facere doloremque voluptates cum at quis numquam excepturi consectetur voluptatum
+        </p>
+      </div>
+      <div class="grid grid-cols-1 tablet:grid-cols-2 desktop:grid-cols-3 py-4 gap-6 mt-4">
+        <div>
+          <div class="py-3">
+            <h3 class="text-midnight text-xl font-semibold">September 5</h3>
+            <p class="mt-2 text-sm">Our first day is jam-packed with wonderful people and exciting workshops.</p>
+          </div>
+          <ul class="bg-white shadow-lg divide-y-2 p-4">
+            <li class="text-center py-4 space-y-1">
+              <p class="text-sm uppercase">9:00AM - 11:00AM PST</p>
+              <p class="text-lg">Morning Livestream with Rebekka</p>
+            </li>
+            <li class="text-center py-4  space-y-1">
+              <p class="text-sm uppercase">11:00AM - 2:00pM PST</p>
+              <p class="text-lg">Hangout Session</p>
+              <p class="text-lg">Lunch</p>
+              <p class="text-lg">Dmitri Koczera</p>
+            </li>
+            <li class="text-center py-4 space-y-1">
+              <p class="text-sm uppercase">2:00PM - 4:00PM PST</p>
+              <p class="text-lg">Hangout Session</p>
+              <p class="text-lg">Geraldo Lam</p>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <div class="py-3">
+            <h3 class="text-midnight text-xl font-semibold">September 6</h3>
+            <p class="mt-2 text-sm">Our first day is jam-packed with wonderful people and exciting workshops.</p>
+          </div>
+          <ul class="bg-white shadow-lg divide-y-2 p-4">
+            <li class="text-center py-4 space-y-1">
+              <p class="text-sm uppercase">9:00AM - 11:00AM PST</p>
+              <p class="text-lg">Morning Livestream with Rebekka</p>
+            </li>
+            <li class="text-center py-4  space-y-1">
+              <p class="text-sm uppercase">11:00AM - 2:00pM PST</p>
+              <p class="text-lg">Hangout Session</p>
+              <p class="text-lg">Lunch</p>
+              <p class="text-lg">Dmitri Koczera</p>
+            </li>
+            <li class="text-center py-4 space-y-1">
+              <p class="text-sm uppercase">2:00PM - 4:00PM PST</p>
+              <p class="text-lg">Hangout Session</p>
+              <p class="text-lg">Geraldo Lam</p>
+            </li>
+            <li class="text-center py-4 space-y-1">
+              <p class="text-sm uppercase">2:00PM - 4:00PM PST</p>
+              <p class="text-lg">Hangout Session</p>
+              <p class="text-lg">Geraldo Lam</p>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <div class="py-3">
+            <h3 class="text-midnight text-xl font-semibold">September 7</h3>
+            <p class="mt-2 text-sm">Our first day is jam-packed with wonderful people and exciting workshops.</p>
+          </div>
+          <ul class="bg-white shadow-lg divide-y-2 p-4">
+            <li class="text-center py-4 space-y-1">
+              <p class="text-sm uppercase">9:00AM - 11:00AM PST</p>
+              <p class="text-lg">Morning Livestream with Rebekka</p>
+            </li>
+            <li class="text-center py-4  space-y-1">
+              <p class="text-sm uppercase">11:00AM - 2:00pM PST</p>
+              <p class="text-lg">Hangout Session</p>
+              <p class="text-lg">Lunch</p>
+              <p class="text-lg">Dmitri Koczera</p>
+            </li>
+            <li class="text-center py-4 space-y-1">
+              <p class="text-sm uppercase">2:00PM - 4:00PM PST</p>
+              <p class="text-lg">Hangout Session</p>
+              <p class="text-lg">Geraldo Lam</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- subscribe section -->
+  <section class="py-6 scroll-mt-[184px] tablet:scroll-mt-[108px]" id="partners">
+    <div class="container mx-auto">
+      <div class="desktop:max-w-4xl">
+        <h2 class="font-black text-brand text-2xl tablet:text-4xl font-satoshi">Subscribe for updates</h2>
+        <p class="mt-6 text-xl text-metal">
+          Sign up to our newsletter to get the latest information WireFrame Design Conf.
+        </p>
+        <div class="flex gap-5 py-10 flex-col tablet:flex-row">
+          <input type="text" id="first_name"
+            class="bg-gray-50 border border-gray-300 text-metal text-sm rounded-lg focus:ring-midnight focus:border-midnight block tablet:max-w-xl p-2 flex-1">
+          <button type="button"
+            class="text-white bg-brand font-medium rounded-lg text-xs px-10 py-2.5">Subscribe</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- footer section -->
+  <footer>
+    <div class="container mx-auto">
+      <div
+        class="flex flex-col tablet:flex-row justify-between tablet:items-center py-10 border-metal/10 border-t-2 gap-3">
+        <a href="#" class="order-2 tablet:order-1">@ 2023, WireFrame Design Conf.</a>
+        <ul class="grid grid-cols-1 tablet:grid-cols-4 gap-3 order-1 tablet:order-2">
+          <li class=""><a href="#" class="text-sm">FAQ</a></li>
+          <li class=""><a href="#" class="text-sm">Privacy Policy</a></li>
+          <li class=""><a href="#" class="text-sm">Terms of Service</a></li>
+          <li class=""><a href="#" class="text-sm">Code of Conduct</a></li>
+        </ul>
+      </div>
+    </div>
+
+  </footer>
+  <script src="/js/flowbite.min.js"></script>
+  <script>
+    window.addEventListener("scroll", function () {
+      var navbar = document.querySelector("nav");
+      var scrollY = window.scrollY;
+      var scrollThreshold = 100;
+      // Add or remove the CSS class based on the scroll position
+      if (scrollY > scrollThreshold) {
+        navbar.classList.add("bg-cool-white", "ease-in", "duration-75", "shadow-lg");
+      } else {
+        navbar.classList.remove("bg-cool-white", "shadow-lg", "ease-in", "duration-75");
+      }
+    });
+  </script>
+</body>
+
+
+</html>
